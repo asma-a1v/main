@@ -1,0 +1,67 @@
+{
+	"blocks": [
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "*2月20日 (火) の勤怠*"
+			}
+		},
+		{
+			"type": "actions",
+			"elements": [
+				{
+					"type": "button",
+					"text": {
+						"type": "plain_text",
+						"text": "出勤",
+						"emoji": true
+					},
+					"style": "primary",
+					"value": "出勤"
+				},
+				{
+					"type": "button",
+					"text": {
+						"type": "plain_text",
+						"text": "退勤",
+						"emoji": true
+					},
+					"style": "danger",
+					"value": "退勤"
+				}
+			]
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": ":briefcase: *出勤*"
+			}
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": ":house_with_garden: *退勤*"
+			}
+		},
+		{
+			"type": "actions",
+			"elements": [
+				{
+					"type": "button",
+					"text": {
+						"type": "plain_text",
+						"text": "勤怠表示",
+						"emoji": true
+					},
+					"value": "勤怠表示"
+				}
+			]
+		}
+	]
+}
